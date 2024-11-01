@@ -1,35 +1,19 @@
 import numpy as np
 
-d1= np.array([1,2,3,4,5,6])
+qovun = np.array([1,7,2,4,3])
+tarvuz = np.array([[1,21,33],[4,55,66]])
 
-d2 = np.array([[1,2,3], [4,5,6]])
-
-sum_d1 = np.sum(d1)
-
-sum_d2= np.sum(d2)
-
-mean_d1= np.mean(d1)
-
-mean_d2= np.mean(d2)
-
-prod_d1 = np.prod(d1)
-
-prod_d2 = np.prod(d2)
-
-print("10 massiv:", d1)
-
-print("20 massiv:\n", d2)
-
-print("10 yig'indisi:", sum_d1)
-
-print("10 o'rtachasi:", mean_d1) 
-
- print("1D ko'paytmasi:", prod_d1)
- 
-print("20 yig'indisi:", sum_d2)
-
-print("20 o'rtachasi:", mean_d2)
-
-print("2D ko'paytmasi:", prod_d2)
-
-import pandas as pd
+qoshish = np.sum(qovun)
+orta = np.mean(qovun)
+kopaytma = np.prod(qovun)
+qoshish2 = np.sum(tarvuz)
+orta2 = np.mean(tarvuz)
+kopaytma2 = np.prod(tarvuz)
+print("1 massiv:",qovun)
+print("2 massiv:",tarvuz)
+print("massivlar yigindisi 1:",qoshish)
+print("massivlar yigindisi 2:",qoshish2)
+print("orta 1",orta)
+print("orta 2",orta2)
+print("kopaytma 1",kopaytma)
+print("kopaytma 2",kopaytma2)
