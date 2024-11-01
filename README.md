@@ -23,7 +23,9 @@ print("20 massiv:\n", d2)
 print("10 yig'indisi:", sum_d1)
 
 print("10 o'rtachasi:", mean_d1) 
+
  print("1D ko'paytmasi:", prod_d1)
+ 
 print("20 yig'indisi:", sum_d2)
 
 print("20 o'rtachasi:", mean_d2)
